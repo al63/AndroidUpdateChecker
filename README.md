@@ -4,6 +4,10 @@ Often times its useful to do some action on app update. Maybe that is upsell a n
 or make some API requests behind the secenes. It can be hard though to differentiate a true app update and
 a fresh install.
 
+
+TODO:
+better strategy? http://stackoverflow.com/questions/26352881/detect-if-new-install-or-updated-version-android-app
+
 ```
 public class MyApplication extends Application {
 	@Override
