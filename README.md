@@ -17,7 +17,8 @@ public class MyApplication extends Application {
 		    break;
 		  case FIRST_LAUNCH:
 		    // User is using the app for the first time OR has cleared their app data.
-		    // Note that first use of UpdateChecker will return FIRST_LAUNCH because UpdateChecker won't have a locally saved app version yet
+		    // Note that first use of UpdateChecker will return FIRST_LAUNCH because UpdateChecker won't have a
+		    // locally saved app version yet
 		    break;
 		  case NO_CHANGE:
 		    // User has used this version of the app before
